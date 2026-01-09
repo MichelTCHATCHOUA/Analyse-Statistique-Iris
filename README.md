@@ -82,10 +82,10 @@ L'analyse est structurée en quatre étapes clés :
 
 ## 📊 Visualisations
 
-![Visualisation des classes](images/plot_1.png)
+![Visualisation des classes](Images/plot_1.png)
 *Figure 1 : Distribution des classes selon les descripteurs.*
 
-![Contours de densité GMM](images/plot_3.png)
+![Contours de densité GMM](Images/plot_3.png)
 *Figure 2 : Modélisation des densités par GMM (Sepal Length vs Sepal Width).*.
 
 ---
