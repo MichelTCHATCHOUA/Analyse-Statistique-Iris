@@ -26,9 +26,9 @@ L'étude vise à caractériser les espèces d'iris en utilisant des outils stati
     *   $d_3$ : Longueur du pétale (cm)
     *   $d_4$ : Largeur du pétale (cm)
 *   **Classes** : 3 espèces 
-   *   Setosa
-   *   Versicolor
-   *   Virginica
+    *   Setosa
+    *   Versicolor
+    *   Virginica
 
 ---
 
