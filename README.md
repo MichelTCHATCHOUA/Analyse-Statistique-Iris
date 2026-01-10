@@ -81,13 +81,38 @@ L'analyse est structurée en quatre étapes clés :
 
 ## 📊 Visualisations
 
-![Visualisation des classes](Images/plot_1.png)
-*Figure 1 : Distribution des classes selon les descripteurs.*
-Ce graphique montre la répartition des trois espèces d'iris pour chaque caractéristique. On observe une séparation nette de l'espèce Setosa, tandis que Versicolor et Virginica présentent des chevauchements, notamment sur la largeur des sépales.
+### Distribution des classes
 
-![Contours de densité GMM](Images/plot_3.png)
-*Figure 2 : Modélisation des densités par GMM (Sepal Length vs Sepal Width).*.
-Cette visualisation illustre l'estimation des densités de probabilité par des modèles de mélange gaussien. Les ellipses représentent les contours de densité pour chaque classe, confirmant la structure statistique et la dispersion des données dans le plan bidimensionnel.
+<p align="center">
+  <img src="Images/plot_1.png" alt="Distribution des classes selon les descripteurs" width="800">
+</p>
+
+**Figure 1 : Distribution des classes selon les descripteurs**
+
+Ce graphique présente la répartition des trois espèces d'iris (*Setosa*, *Versicolor*, *Virginica*) pour chaque caractéristique morphologique. 
+
+**Observations clés :**
+- Séparation nette de l'espèce *Setosa* sur l'ensemble des descripteurs
+- Chevauchement significatif entre *Versicolor* et *Virginica*, particulièrement visible sur la largeur des sépales
+- Cette distribution justifie l'approche de classification multiclasse adoptée
+
+---
+
+### Modélisation par GMM
+
+<p align="center">
+  <img src="Images/plot_3.png" alt="Contours de densité GMM" width="800">
+</p>
+
+**Figure 2 : Contours de densité estimés par GMM (Longueur vs Largeur des sépales)**
+
+Cette visualisation illustre l'estimation des densités de probabilité par modèles de mélange gaussien (GMM). 
+
+**Éléments représentés :**
+- Les ellipses délimitent les contours de densité pour chaque classe
+- Chaque ellipse représente une région de probabilité constante
+- La disposition spatiale confirme la structure statistique des données dans le plan bidimensionnel
+- La taille et l'orientation des ellipses reflètent la variance et la covariance des caractéristiques pour chaque espèce
 
 ---
 
@@ -100,4 +125,4 @@ Cette visualisation illustre l'estimation des densités de probabilité par des 
 
 ## 👤 Auteur
 
-**Michel TCHATCHOUA** - Étudiant en Ingénierie des Données (IADS 3)
+**Michel TCHATCHOUA** - Data Scientist
