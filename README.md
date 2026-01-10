@@ -2,8 +2,6 @@
 
 Ce projet présente une analyse statistique approfondie du célèbre jeu de données **Iris** de Fisher. L'objectif est d'explorer les caractéristiques morphologiques de trois espèces d'iris (**Setosa**, **Versicolor**, **Virginica**) à travers des analyses monodimensionnelles, conditionnelles et bidimensionnelles, afin d'évaluer leur pouvoir discriminant pour la classification.
 
-Le rapport complet est disponible ici : [Rapport.pdf](TP1_TCHATCHOUA.pdf)
-
 ---
 
 ## 🎯 Objectif
@@ -22,12 +20,15 @@ L'étude vise à caractériser les espèces d'iris en utilisant des outils stati
 
 *   **Source** : Jeu de données Iris de `scikit-learn`.
 *   **Échantillon** : 150 observations (50 par classe).
-*   **Descripteurs (Variables)** :
+*   **Descripteurs** : 4 Variables
     *   $d_1$ : Longueur du sépale (cm)
     *   $d_2$ : Largeur du sépale (cm)
     *   $d_3$ : Longueur du pétale (cm)
     *   $d_4$ : Largeur du pétale (cm)
-*   **Classes** : Setosa, Versicolor, Virginica.
+*   **Classes** : 3 espèces 
+   *   Setosa
+   *   Versicolor
+   *   Virginica
 
 ---
 
@@ -47,8 +48,6 @@ TP1-Analyse-Statistique-Iris/
 ├── README.md                # Ce fichier
 ├── TP1_TCHATCHOUA.pdf       # Rapport complet d'analyse
 ├── TP1_TCHATCHOUA.ipynb     # Notebook avec tous les calculs et graphiques
-├── Enonce_TP.pdf            # Énoncé original du TP
-├── data/                    # (Optionnel) Données exportées
 └── images/                  # Visualisations générées
 ```
 
@@ -84,15 +83,17 @@ L'analyse est structurée en quatre étapes clés :
 
 ![Visualisation des classes](Images/plot_1.png)
 *Figure 1 : Distribution des classes selon les descripteurs.*
+Ce graphique montre la répartition des trois espèces d'iris pour chaque caractéristique. On observe une séparation nette de l'espèce Setosa, tandis que Versicolor et Virginica présentent des chevauchements, notamment sur la largeur des sépales.
 
 ![Contours de densité GMM](Images/plot_3.png)
 *Figure 2 : Modélisation des densités par GMM (Sepal Length vs Sepal Width).*.
+Cette visualisation illustre l'estimation des densités de probabilité par des modèles de mélange gaussien. Les ellipses représentent les contours de densité pour chaque classe, confirmant la structure statistique et la dispersion des données dans le plan bidimensionnel.
 
 ---
 
 ## 💻 Code Source et Fichiers
 
-*   **Notebook** : Le code complet pour le traitement des données, les calculs de variance et la génération des graphiques est disponible dans [TP1_TCHATCHOUA.ipynb](TP1_TCHATCHOUA.ipynb).
+*   **Notebook** : Le code complet pour le traitement des données, les calculs de variance et la génération des graphiques est disponible dans [codeSource.ipynb](TP1_TCHATCHOUA.ipynb).
 *   **Rapport** : Pour une interprétation détaillée des courbes de densité et des matrices de covariance, consultez le [Rapport PDF](TP1_TCHATCHOUA.pdf).
 
 ---
